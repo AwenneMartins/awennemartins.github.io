@@ -1,0 +1,29 @@
+html{
+    font-family:'Piazzolla', serif;
+    font-size: 10px;
+    background-color:#931515 ;
+}
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color:#FFFFFF;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+h1{
+    margin: 0;
+    padding: 20px 0;
+    color:#931515;
+    text-shadow: 3px 3px 2px black;
+    font-size: 60px;
+    text-align: center;
+}
+img{
+    display: block;
+    width: 550px;
+}
+p{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
