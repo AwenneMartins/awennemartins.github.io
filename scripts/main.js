@@ -1,11 +1,11 @@
 let minhaImagem= document.querySelector('img');
 minhaImagem.onclick= function(){
     let meuSrc =minhaImagem.getAttribute('src');
-    if(meuSrc === 'imagens/4604242439_d677ff833c_o.jpg'){
+    if(meuSrc === 'imagens/Opening_Zelda_Game_in_1986.gif'){
         minhaImagem.setAttribute('src','imagens/849861.png');
     }
     else{
-        minhaImagem.setAttribute('src','imagens/4604242439_d677ff833c_o.jpg');
+        minhaImagem.setAttribute('src','imagens/Opening_Zelda_Game_in_1986.gif');
     }
 }
 
