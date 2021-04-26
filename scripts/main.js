@@ -1,11 +1,11 @@
 let minhaImagem= document.querySelector('img');
 minhaImagem.onclick= function(){
     let meuSrc =minhaImagem.getAttribute('src');
-    if(meuSrc === 'imagens/Opening_Zelda_Game_in_1986.gif'){
-        minhaImagem.setAttribute('src','imagens/849861.png');
+    if(meuSrc === 'imagens/IMG-20210405-WA0017.jpg'){
+        minhaImagem.setAttribute('src','imagens/IMG-20210413-WA0157.jpg');
     }
     else{
-        minhaImagem.setAttribute('src','imagens/Opening_Zelda_Game_in_1986.gif');
+        minhaImagem.setAttribute('src','imagens/IMG-20210405-WA0017.jpg');
     }
 }
 
@@ -18,7 +18,7 @@ function defineNomeUsuario() {
         defineNomeUsuario();
       } else {
     localStorage.setItem('nome',meuNome);
-    meuCabecalho.innerHTML= 'Conheça um pouco mais sobre A lenda de Zelda, ' + meuNome;
+    meuCabecalho.innerHTML= 'Eu Te amo demais, ' + meuNome;
     }
 }
 
@@ -26,7 +26,7 @@ if(!localStorage.getItem('nome')){
     defineNomeUsuario();
 } else {
     let nomeGuardado = localStorage.getItem('nome');
-    meuCabecalho.innerHTML = 'Conheça um pouco mais sobre A lenda de Zelda, ' + meuNome;
+    meuCabecalho.innerHTML = 'Eu te amo demais, ' + meuNome;
 }
 
 meuBotao.onclick = function() {
